@@ -44,6 +44,9 @@
   const editPriority = $("edit-priority-select");
   const editDue = $("edit-due-date-input");
 
+  editMode.classList.add("hidden");
+viewMode.classList.remove("hidden");
+
   function priorityClass(p) {
     return "priority-" + p.toLowerCase();
   }
