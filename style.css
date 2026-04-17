@@ -198,6 +198,13 @@ h3 {
 .status-inprogress .status-dot { background: #3b82f6; }
 .status-done       .status-dot { background: #10b981; }
 
+.btn-secondary {
+  background: #fff;
+  border-color: #e5e7eb;
+  color: #374151;
+}
+.btn-secondary:hover { background: #f9fafb; }
+
 .status-text {
   font-size: 12px;
   font-weight: 500;
